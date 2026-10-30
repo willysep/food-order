@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order - Pemesanan Makanan Katering</title>
+  <meta name="description" content="Aplikasi pemesanan makanan katering minimalis berbasis web statis">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-top-row">
+        <a href="#/" class="brand">
+          <span style="display:inline-block; font-size: 1.25rem;">🍲</span>
+          <span>KateringApp</span>
+          <span class="brand-badge">BETA</span>
+        </a>
+
+        <div id="user-container">
+          <!-- Injected dynamically by app.js -->
+        </div>
+      </div>
+
+      <nav class="main-nav" id="nav-container">
+        <!-- Injected dynamically by app.js based on role -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main View Slot -->
+  <main id="app">
+    <div style="text-align: center; padding: 4rem 1rem; color: var(--fg-muted);">
+      Memuat aplikasi...
+    </div>
+  </main>
+
+  <!-- Main Entry Script -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
